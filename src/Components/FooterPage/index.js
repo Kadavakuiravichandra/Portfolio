@@ -29,7 +29,7 @@ const FooterPage = () => {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/KRC00"
+                href="https://www.linkedin.com/in/krc00/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
