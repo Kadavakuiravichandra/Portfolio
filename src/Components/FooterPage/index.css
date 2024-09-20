@@ -1,0 +1,43 @@
+.contact-page-title {
+  font-family: 'Lobster Two', sans-serif;
+}
+
+.contact-icons {
+  color: black !important;
+  font-size: 25px;
+}
+
+.contact-icons:hover {
+  border-bottom: 2px solid black;
+  color: orangered !important;
+}
+
+@media screen and (min-width: 992px) {
+  .contact-icons {
+    font-size: 36px;
+  }
+}
+
+.footer-bng {
+  background: hsla(145, 84%, 73%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(145, 84%, 73%, 1) 0%,
+    hsla(150, 61%, 48%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(145, 84%, 73%, 1) 0%,
+    hsla(150, 61%, 48%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(145, 84%, 73%, 1) 0%,
+    hsla(150, 61%, 48%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#82F4B1", endColorstr="#30C67C", GradientType=1 );
+}
